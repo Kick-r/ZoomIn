@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+<link rel="shortcut icon" href="logo.png" type="image/x-icon">    <title>ZoomIn</title>
+</head>
+<body>
+
+    <audio src="music.mp3" id="audio"></audio>
+
+    <header></header>
+    <section>
+        <div class="barra">
+            <span id="item0">Natureza</span>
+            <span id="item1">Comidas</span>
+            <span id="item2">Cidades</span>
+        </div>
+
+        <div class="parte_de_imagem">
+
+            <a href="" target="_blank" id="a0">
+                <img src="" id="img0">
+            </a>
+
+            <a href="" target="_blank" id="a1">
+                <img src="" id="img1">
+            </a>
+
+            <a href="" target="_blank" id="a2">
+                <img src="" id="img2">
+            </a>
+
+            <a href="" target="_blank" id="a3">
+                <img src="" id="img3">
+            </a>
+
+            <a href="" target="_blank" id="a4">
+                <img src="" id="img4">
+            </a>
+
+            <a href="" target="_blank" id="a5">
+                <img src="" id="img5">
+            </a>
+
+            <a href="" target="_blank" id="a6">
+                <img src="" id="img6">
+            </a>
+
+            <a href="" target="_blank" id="a7">
+                <img src="" id="img7">
+            </a>
+
+            <a href="" target="_blank" id="a8">
+                <img src="" id="img8">
+            </a>
+
+            <a href="" target="_blank" id="a9">
+                <img src="" id="img9">
+            </a>
+
+            <a href="" target="_blank" id="a10">
+                <img src="" id="img10">
+            </a>
+
+            <a href="" target="_blank" id="a11">
+                <img src="" id="img11">
+            </a>
+            
+        </div>
+    </section>
+    <footer>
+        <p>2023 ZoomIn.ing</p>
+        <p>criadora: Fernada Amille Pereira Santos</p>
+        <p>prof.: Janaina</p>
+        <p>IFBA-Campo</p>
+    </footer>
+    <script>
+        //pega o elemento de audio
+        var audio = document.getElementById('audio');
+
+        //cria uma função pra toca e deixa em loop o audio
+        function tocar() {
+            audio.loop = true;
+            audio.play();
+        }
+
+        //quando tiver um click em quanquer parte do site é começa a tocar a musica
+        document.addEventListener('click', function(event) {
+            tocar()
+        });
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
